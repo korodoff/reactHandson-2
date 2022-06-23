@@ -1,0 +1,51 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(235,174,0,1) 0%, rgba(0,212,255,1) 100%);
+ 
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    font-size: 1em;
+    
+    margin: 5px;
+    background-color: rgb(185, 228, 247);
+
+    border-radius: 20px;
+}
+#submit{
+    margin-left: 90px;
+    font-size: 1.5em;
+}
+.cardHolder{
+    display: "flex";
+    justify-content: space-around;
+    flex-wrap: "wrap";
+    background-color:rgb(185, 228, 247);
+    width: 80%;
+    margin-left: 3em;
+    border: 3px solid black;
+}
+.cardDisplay{
+    background-color: rgb(233, 162, 172);
+    width: 25em;
+    padding: 5px;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 5px;
+}
+.btn{
+    font-size: 1em;
+    
+    margin: 5px;
+    background-color: rgb(185, 228, 247);
+
+    border-radius: 20px;
+}
